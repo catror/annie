@@ -15,6 +15,7 @@ import (
 	"github.com/iawia002/annie/extractors/haokan"
 	"github.com/iawia002/annie/extractors/instagram"
 	"github.com/iawia002/annie/extractors/iqiyi"
+	"github.com/iawia002/annie/extractors/ixigua"
 	"github.com/iawia002/annie/extractors/mgtv"
 	"github.com/iawia002/annie/extractors/miaopai"
 	"github.com/iawia002/annie/extractors/netease"
@@ -77,6 +78,7 @@ func init() {
 		"haokan":     haokan.New(),
 		"acfun":      acfun.New(),
 		"eporner":    eporner.New(),
+		"ixigua":     ixigua.New(),
 	}
 }
 
